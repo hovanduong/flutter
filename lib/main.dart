@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Welcome to Flutter'),
+          leading: Icon(Icons.menu),
         ),
         body: WebView(initialUrl: "https://tiki.vn",
         javascriptMode: JavascriptMode.unrestricted,
